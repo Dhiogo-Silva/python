@@ -1,0 +1,8 @@
+nome = str(input('Digite seu nome completo: '))
+dividido = nome.split()
+junto = (''.join(dividido))
+primeiro_nome=(len(dividido[0]))
+print(nome.upper())
+print(nome.lower())
+print(len(junto))
+print(primeiro_nome)

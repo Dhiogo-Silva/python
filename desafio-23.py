@@ -1,0 +1,5 @@
+numero = input('Insira um valor de ate 4 digitos: ')
+print('Unidade',(numero[3]))
+print('dezena',(numero[2]))
+print('centena',(numero[1]))
+print('milhar',(numero[0]))
